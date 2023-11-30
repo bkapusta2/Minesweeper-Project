@@ -3,3 +3,4 @@
 Cell::Cell() {
     numberOfSurroundingBombs = 0;
 }
+

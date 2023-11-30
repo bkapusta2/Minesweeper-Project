@@ -1163,8 +1163,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/cmake-build-debug",
-		"source" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project"
+		"build" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug",
+		"source" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project"
 	},
 	"version" : 
 	{
