@@ -66,8 +66,8 @@ void Board::printBoard() {
     for (int y = 0; y < size; y++){
         cout << "|";
         for (int x = 0; x < size; x++){
-            if (board[x][y] != nullptr){
-                cout << board[x][y]->getSymbol() << "|";
+            if (board[x][y] != nullptr) {
+                cout << board[x][y]->getSymbol() << board[x][y]->getValueInside() << "|";
             }
             else {
                 cout << " |";
