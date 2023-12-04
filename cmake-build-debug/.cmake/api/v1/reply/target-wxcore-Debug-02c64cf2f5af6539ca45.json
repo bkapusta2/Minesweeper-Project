@@ -1,0 +1,6294 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "wxWidgets-3.2.4/lib/libwx_osx_cocoau_core-3.2.dylib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"wx_add_library",
+			"install",
+			"wx_install",
+			"target_link_libraries",
+			"wx_set_target_properties",
+			"wx_lib_link_libraries",
+			"include",
+			"target_compile_options",
+			"wx_set_common_target_properties",
+			"target_compile_definitions",
+			"wx_target_enable_precomp",
+			"target_include_directories",
+			"wx_lib_include_directories",
+			"target_precompile_headers"
+		],
+		"files" : 
+		[
+			"wxWidgets-3.2.4/build/cmake/functions.cmake",
+			"wxWidgets-3.2.4/build/cmake/lib/core/CMakeLists.txt",
+			"wxWidgets-3.2.4/build/cmake/lib/base/CMakeLists.txt",
+			"wxWidgets-3.2.4/build/cmake/lib/png.cmake",
+			"wxWidgets-3.2.4/build/cmake/lib/CMakeLists.txt",
+			"wxWidgets-3.2.4/build/cmake/pch.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 446,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 457,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 448,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 391,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 15
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 52,
+				"parent" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 57,
+				"parent" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 20
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 27,
+				"parent" : 22
+			},
+			{
+				"file" : 3,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 53,
+				"parent" : 24
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 26
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 298,
+				"parent" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 290,
+				"parent" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 379,
+				"parent" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 5
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 464,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 22,
+				"parent" : 33
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 26
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 313,
+				"parent" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 371,
+				"parent" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 306,
+				"parent" : 5
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 39
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 41
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 43
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 327,
+				"parent" : 5
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 33,
+				"parent" : 33
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 33
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-shorten-64-to-32"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang \"/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/libs/core/CMakeFiles/wxcore.dir/cmake_pch_arm64.objcxx.hxx\" -x objective-c++-header"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 29,
+					"define" : "WXBUILDING"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "WXDLLNAME=wx_osx_cocoau_core-3.2"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "WXMAKINGDLL_CORE"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "WXUSINGDLL"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "WX_PRECOMP"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXMAC__"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXOSX_COCOA__"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXOSX__"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "wxUSE_BASE=0"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "wxUSE_GUI=1"
+				},
+				{
+					"define" : "wxcore_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 40,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/tiff/libtiff"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/png"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/jpeg"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/lib/wx/include/osx_cocoa-unicode-3.2"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include"
+				}
+			],
+			"language" : "OBJCXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 47,
+					"header" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include/wx/wxprec.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-shorten-64-to-32"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-ctor-dtor-privacy"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang \"/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/libs/core/CMakeFiles/wxcore.dir/cmake_pch_arm64.hxx\" -x c++-header"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 29,
+					"define" : "WXBUILDING"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "WXDLLNAME=wx_osx_cocoau_core-3.2"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "WXMAKINGDLL_CORE"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "WXUSINGDLL"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "WX_PRECOMP"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXMAC__"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXOSX_COCOA__"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXOSX__"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "wxUSE_BASE=0"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "wxUSE_GUI=1"
+				},
+				{
+					"define" : "wxcore_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 40,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/tiff/libtiff"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/png"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/jpeg"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/lib/wx/include/osx_cocoa-unicode-3.2"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include/wx/wxprec.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-shorten-64-to-32"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-ctor-dtor-privacy"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-Winvalid-pch -Xarch_arm64 \"-include/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/libs/core/CMakeFiles/wxcore.dir/cmake_pch_arm64.hxx\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 29,
+					"define" : "WXBUILDING"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "WXDLLNAME=wx_osx_cocoau_core-3.2"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "WXMAKINGDLL_CORE"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "WXUSINGDLL"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "WX_PRECOMP"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXMAC__"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXOSX_COCOA__"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXOSX__"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "wxUSE_BASE=0"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "wxUSE_GUI=1"
+				},
+				{
+					"define" : "wxcore_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 40,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/tiff/libtiff"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/png"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/jpeg"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/lib/wx/include/osx_cocoa-unicode-3.2"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include/wx/wxprec.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				497,
+				498,
+				499,
+				500,
+				501,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				717,
+				718,
+				720,
+				722,
+				725,
+				727,
+				728,
+				730,
+				731,
+				733
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-shorten-64-to-32"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-Winvalid-pch -Xarch_arm64 \"-include/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/libs/core/CMakeFiles/wxcore.dir/cmake_pch_arm64.objcxx.hxx\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 29,
+					"define" : "WXBUILDING"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "WXDLLNAME=wx_osx_cocoau_core-3.2"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "WXMAKINGDLL_CORE"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "WXUSINGDLL"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "WX_PRECOMP"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXMAC__"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXOSX_COCOA__"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "__WXOSX__"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "wxUSE_BASE=0"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "wxUSE_GUI=1"
+				},
+				{
+					"define" : "wxcore_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 40,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/tiff/libtiff"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/png"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/src/jpeg"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/lib/wx/include/osx_cocoa-unicode-3.2"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include"
+				}
+			],
+			"language" : "OBJCXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 47,
+					"header" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include/wx/wxprec.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				502,
+				503,
+				504,
+				525,
+				640,
+				641,
+				662,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				709,
+				710,
+				711,
+				712,
+				713,
+				714,
+				715,
+				716,
+				719,
+				721,
+				723,
+				724,
+				726,
+				729,
+				732
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "wxjpeg::@2abd6401599e2f096d4d"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "wxpng::@2abd6401599e2f096d4d"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "wxtiff::@2abd6401599e2f096d4d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "wxbase::@8311d02cb6bda5344ad5"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Libraries"
+	},
+	"id" : "wxcore::@2bd704479a55e9162341",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-pthread",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "wxWidgets-3.2.4/lib/libwx_baseu-3.2.0.2.2.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "wxWidgets-3.2.4/lib/libwxjpeg-3.2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "wxWidgets-3.2.4/lib/libwxpng-3.2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "wxWidgets-3.2.4/lib/libwxtiff-3.2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-framework AudioToolbox",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-framework WebKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "-framework CoreFoundation",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "-framework Carbon",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "-framework QuartzCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "wxWidgets-3.2.4/lib/libwxjpeg-3.2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libz.tbd",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "wxcore",
+	"nameOnDisk" : "libwx_osx_cocoau_core-3.2.dylib",
+	"paths" : 
+	{
+		"build" : "wxWidgets-3.2.4/libs/core",
+		"source" : "wxWidgets-3.2.4/build/cmake/lib/core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "CMake",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				750,
+				751
+			]
+		},
+		{
+			"name" : "Common Sources",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				167,
+				172,
+				176,
+				177,
+				186,
+				190,
+				191,
+				192,
+				193,
+				194,
+				205,
+				497,
+				498,
+				499,
+				500,
+				727
+			]
+		},
+		{
+			"name" : "Generic Sources",
+			"sourceIndexes" : 
+			[
+				50,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				168,
+				169,
+				170,
+				171,
+				173,
+				174,
+				175,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				187,
+				188,
+				189,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				206,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				679
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				166,
+				501
+			]
+		},
+		{
+			"name" : "Common Headers",
+			"sourceIndexes" : 
+			[
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				453,
+				454,
+				455,
+				457,
+				458,
+				460,
+				463,
+				468,
+				469,
+				470,
+				471,
+				473,
+				474,
+				477,
+				478,
+				479,
+				481,
+				482,
+				483,
+				484,
+				485,
+				487,
+				492,
+				495,
+				496
+			]
+		},
+		{
+			"name" : "Generic Headers",
+			"sourceIndexes" : 
+			[
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				338,
+				444,
+				451,
+				452,
+				456,
+				459,
+				461,
+				462,
+				464,
+				465,
+				466,
+				467,
+				472,
+				475,
+				476,
+				480,
+				486,
+				488,
+				489,
+				490,
+				491,
+				493,
+				494,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				611,
+				612,
+				738
+			]
+		},
+		{
+			"name" : "OSX Sources",
+			"sourceIndexes" : 
+			[
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				678,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				709,
+				710,
+				711,
+				712,
+				713,
+				714,
+				715,
+				716,
+				717,
+				718,
+				719,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				726,
+				728,
+				729,
+				730,
+				731,
+				732,
+				733
+			]
+		},
+		{
+			"name" : "OSX Headers",
+			"sourceIndexes" : 
+			[
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				610,
+				734,
+				735,
+				736,
+				737,
+				739,
+				740,
+				741,
+				742,
+				743,
+				744,
+				745,
+				746,
+				747,
+				748
+			]
+		},
+		{
+			"name" : "Setup Headers",
+			"sourceIndexes" : 
+			[
+				749
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/wxWidgets-3.2.4/libs/core/CMakeFiles/wxcore.dir/cmake_pch_arm64.objcxx.hxx.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/wxWidgets-3.2.4/libs/core/CMakeFiles/wxcore.dir/cmake_pch_arm64.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/accelcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/accesscmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/anidecod.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/affinematrix2d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/appcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/artprov.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/artstd.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/arttango.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/bmpbase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/bmpbtncmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/bookctrl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/btncmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/cairo.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/checkboxcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/checklstcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/choiccmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/clipcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/clrpickercmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/colourcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/colourdata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/combocmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/cmdproc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/cmndata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/containr.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/cshelp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/ctrlcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/ctrlsub.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dcbase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dcbufcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dcgraph.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dcsvg.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dirctrlcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dlgcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dndcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dobjcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/docmdi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/docview.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dpycmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/dseldlg.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/effects.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fddlgcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/filectrlcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/filehistorycmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/filepickercmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fontpickercmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fldlgcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fontcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fontdata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/graphicc.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fontenumcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fontmap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fontutilcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/framecmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/gaugecmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/gbsizer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/gdicmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/geometry.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/gifdecod.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/graphcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/headercolcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/headerctrlcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/helpbase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/iconbndl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagall.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagbmp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/image.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagfill.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imaggif.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagiff.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagjpeg.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagpcx.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagpng.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagpnm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagtga.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagtiff.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/imagxpm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/layout.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/lboxcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/listctrlcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/markupparser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/matrix.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/menucmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/modalhook.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/mousemanager.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/nbkbase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/overlaycmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/ownerdrwcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/paper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/panelcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/persist.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/pickerbase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/popupcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/preferencescmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/prntbase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/quantize.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/radiobtncmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/radiocmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/rearrangectrl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/rendcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/rgncmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/scrolbarcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/settcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/sizer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/slidercmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/spinbtncmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/spinctrlcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/srchcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/statbar.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/statbmpcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/statboxcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/statlinecmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/stattextcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/stockitem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/tbarbase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/textcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/textentrycmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/textmeasurecmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/toplvcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/treebase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/uiactioncmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/valgen.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/validate.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/valtext.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/valnum.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/wincmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/windowid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/wrapsizer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/xpmdecod.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/busyinfo.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/buttonbar.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/choicdgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/choicbkg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/collheaderctrlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/combog.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/dcpsg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/dirctrlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/dragimgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/filectrlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/headerctrlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/infobar.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/listbkg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/logg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/markuptext.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/msgdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/numdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/progdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/preferencesg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/printps.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/renderg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/richmsgdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/scrlwing.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/selstore.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/spinctlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/splitter.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/srchctlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/statbmpg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/stattextg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/textdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/tipwin.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/toolbkg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/treectlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/treebkg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/vlbox.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/vscroll.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/xrc/xmlreshandler.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/bmpcboxcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/grideditors.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/gridctrl.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/grid.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/hyperlinkg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/calctrlcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/notifmsgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/odcombo.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/splash.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/gridcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/addremovectrl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/tipdlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/aboutdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/gridsel.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/sashwin.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/helpext.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/richtooltipg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/bmpcboxg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/timectrlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/notifmsgcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/commandlinkbuttong.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/propdlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/treelist.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/datavcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/animatecmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/odcombocmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/hyperlnkcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/richtooltipcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/datectlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/bannerwindow.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/laywin.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/calctrlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/wizard.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/editlbox.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/datavgen.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/creddlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/rowheightcache.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/animateg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/bmpbndl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/bmpsvg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/affinematrix2dbase.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/affinematrix2d.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/anybutton.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/bmpbuttn.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/brush.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/button.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/checkbox.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/checklst.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/choicdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/choice.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/cmndata.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/collheaderctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/collpane.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/combo.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/combobox.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/compositewin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/control.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/ctrlsub.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/cursor.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/custombgwin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dc.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcclient.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcgraph.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcmemory.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcprint.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcscreen.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcsvg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dialog.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dirdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dragimag.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/encinfo.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/filedlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/frame.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/gauge.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/gbsizer.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/gdicmn.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/accel.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/buttonbar.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/choicdgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/collheaderctrl.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/combo.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/custombgwin.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/dcpsg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/dirctrlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/dragimgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/filectrlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/headerctrlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/infobar.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/logg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/msgdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/numdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/notebook.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/panelg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/prntdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/printps.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/progdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/richmsgdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/scrolwin.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/spinctlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/splitter.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/srchctlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/statbmpg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/stattextg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/textdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/treectlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/graphics.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/headercol.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/headerctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/helphtml.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/icon.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/infobar.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/itemid.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/layout.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/listbox.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/mdi.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/menu.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/modalhook.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/mousemanager.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/msgdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/nativewin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/numdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/overlay.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/palette.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/panel.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/pen.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/peninfobase.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/position.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/preferences.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/radiobox.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/radiobut.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/range.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/rearrangectrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/renderer.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/richmsgdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/scrolbar.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/scrolwin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/selstore.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/settings.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/sizer.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/slider.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/statbmp.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/statbox.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/stattext.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/statusbr.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/systhemectrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/taskbarbutton.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/testing.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/textcompleter.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/textctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/textdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/textentry.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/textwrapper.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/toolbar.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/validate.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/valtext.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/valnum.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/window.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/windowid.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/windowptr.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/withimages.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/wrapsizer.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/wupdlock.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/accel.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/access.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/anidecod.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/animdecod.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/appprogress.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/artprov.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/bitmap.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/bookctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/busyinfo.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/busyinfo.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/caret.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/choicebk.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/clipbrd.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/clrpicker.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/cmdproc.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/colordlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/colour.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/colourdata.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/cshelp.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dataobj.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcmirror.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcps.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dialup.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dirctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/display.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dnd.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/docmdi.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/docview.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/effects.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/fdrepdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/filectrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/filehistory.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/filepicker.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/fontpicker.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/fmappriv.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/font.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/fontdata.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/fontdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/fontenum.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/fontutil.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/gdiobj.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/geometry.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/gifdecod.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/help.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/helpbase.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/helpwin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/iconbndl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagbmp.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/image.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imaggif.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagiff.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagjpeg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imaglist.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagpcx.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagpng.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagpnm.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagtga.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagtiff.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/imagxpm.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/itemattr.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/listbase.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/listbook.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/listctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/matrix.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/menuitem.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/metafile.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/minifram.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/nonownedwnd.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/notebook.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/ownerdrw.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/paper.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/persist.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/persist/bookctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/persist/dataview.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/persist/splitter.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/persist/toplevel.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/persist/treebook.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/persist/window.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/pickerbase.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/popupwin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/print.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/printdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/prntbase.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/progdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/quantize.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/rawbmp.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/region.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/scopeguard.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/simplebook.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/spinbutt.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/spinctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/splitter.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/srchctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/statline.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/tbarbase.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/tglbtn.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/tipwin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/toolbook.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/tooltip.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/toplevel.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/treebase.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/treebook.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/treectrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/uiaction.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/valgen.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/vidmode.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/vlbox.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/vms_x_fix.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/vscroll.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/xpmdecod.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/xpmhand.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/xrc/xmlreshandler.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/splash.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dateevt.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/editlbox.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/hyperlink.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/joystick.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dcbuffer.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/timectrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/hyperlink.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/bmpcbox.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/addremovectrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/gridctrl.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/notifmsg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/odcombo.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/animate.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/sashwin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/propdlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/tipdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dataview.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/helpext.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/grid.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/grid.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/grideditors.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/wizard.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/dataview.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/wizard.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/dvrenderers.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/bmpcbox.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/datetimectrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/activityindicator.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/bannerwindow.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/dvrenderers.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/datectrl.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/calctrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/propdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/dvrenderer.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/timectrl.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/commandlinkbutton.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/richtooltip.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/sound.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/aboutdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/taskbar.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/treelist.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/notifmsg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/datectrl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/laywin.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/gridsel.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/aboutdlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/laywin.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/splash.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/calctrlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/sashwin.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/creddlg.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/creddlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/animate.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/bmpbndl.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/filedlgcustomize.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/event.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/fs_mem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/msgout.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/utilscmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/unix/apptraits.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/utils.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/power.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/volume.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/artmac.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/brush.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/dialog_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/fontutil.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/minifram.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/nonownedwnd_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/palette.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/pen.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/toplevel_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/uiaction_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/utils_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/window_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/bitmap.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/colour.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/dcmemory.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/fontenum.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/hid.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/printmac.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/timer.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/utilsexc_cf.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/core/bmpbndl.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/accel.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/anybutton.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/app.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/bitmap.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/bmpbuttn.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/brush.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/button.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/checkbox.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/checklst.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/chkconf.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/choice.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/clipbrd.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/colordlg.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/colour.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/combobox.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/control.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/cursor.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dataform.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dataobj.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dataobj2.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dc.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dcclient.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dcmemory.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dcprint.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dcscreen.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dialog.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dirdlg.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dnd.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/evtloop.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/evtloopsrc.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/filedlg.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/font.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/fontdlg.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/frame.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/gauge.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/listbox.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/mdi.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/menu.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/menuitem.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/metafile.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/mimetype.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/minifram.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/msgdlg.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/nonownedwnd.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/notebook.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/palette.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/pen.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/popupwin.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/printdlg.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/printmac.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/private.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/radiobox.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/radiobut.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/region.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/scrolbar.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/slider.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/spinbutt.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/srchctrl.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/statbmp.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/statbox.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/statline.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/stattext.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/statusbr.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/taskbarosx.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/textctrl.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/textentry.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/tglbtn.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/toolbar.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/tooltip.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/toplevel.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/uma.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/window.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/caret.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/clrpickerg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/collpaneg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/colrdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/dirdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/fdrepdlg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/filedlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/filepickerg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/fontdlgg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/fontpickerg.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/listctrl.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/statusbr.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/appprogress.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/icon.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/imaglist.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/anybutton_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/bmpbuttn_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/button_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/checkbox_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/checklst_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/choice_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/combobox_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/dnd_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/gauge_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/listbox_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/menu_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/menuitem_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/notebook_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/printdlg_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/radiobox_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/radiobut_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/scrolbar_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/slider_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/spinbutt_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/srchctrl_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/statbox_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/statline_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/stattext_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/textentry_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/textctrl_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/tglbtn_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/toolbar_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/colordlgosx.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/fontdlgosx.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/accel.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/clipbrd.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/cursor.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/fontdlg.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/gdiobj.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/app.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/control.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/dataobj.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/dcclient.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/dcprint.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/dcscreen.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/graphics.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/font.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/frame.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/mdi.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/metafile.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/popupwin.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/renderer.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/statbrma.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/region.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/utilscocoa.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/caret.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/clrpickerg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/collpaneg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/colrdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/dirdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/fdrepdlg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/filedlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/filepickerg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/fontdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/fontpickerg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/listctrl.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/prntdlgg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/statusbr.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/textmeasure.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/icon.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/statbmp_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/generic/imaglist.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/anybutton.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/appprogress.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/button.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/checkbox.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/choice.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/colour.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/combobox.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/dialog.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/dirdlg.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/dnd.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/evtloop.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/filedlg.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/gauge.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/listbox.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/menu.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/menuitem.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/msgdlg.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/nativewin.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/nonownedwnd.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/notebook.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/radiobut.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/overlay.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/preferences.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/printdlg.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/scrolbar.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/settings.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/slider.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/spinbutt.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/srchctrl.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/statbox.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/statline.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/stattext.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/textctrl.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/tglbtn.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/toolbar.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/tooltip.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/window.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/hidjoystick.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/sound_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/datetimectrl.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/datetimectrl_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/aboutdlg.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/timectrl_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/activityindicator.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/dataview.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/carbon/sound.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/taskbar.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/common/taskbarcmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/dataview_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/notifmsg.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/datectrl_osx.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/sound.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "wxWidgets-3.2.4/src/osx/cocoa/statbmp.mm",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "wxWidgets-3.2.4/src/osx/core/display.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/cocoa/chkconf.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/cocoa/evtloop.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/cocoa/private.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/cocoa/stdpaths.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/generic/region.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/activityindicator.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/datectrl.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/sound.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/joystick.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/timectrl.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dvrenderer.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dataview.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/cocoa/dataview.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/datetimectrl.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.2.4/include/wx/osx/dvrenderers.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/wxWidgets-3.2.4/lib/wx/include/osx_cocoa-unicode-3.2/wx/setup.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 0,
+			"path" : "cmake-build-debug/wxWidgets-3.2.4/libs/core/CMakeFiles/wxcore.dir/cmake_pch_arm64.hxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "cmake-build-debug/wxWidgets-3.2.4/libs/core/CMakeFiles/wxcore.dir/cmake_pch_arm64.objcxx.hxx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

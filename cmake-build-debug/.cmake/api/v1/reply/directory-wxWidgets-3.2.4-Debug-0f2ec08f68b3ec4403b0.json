@@ -1,0 +1,237 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"wxWidgets-3.2.4/build/cmake/install.cmake",
+			"wxWidgets-3.2.4/build/cmake/main.cmake",
+			"wxWidgets-3.2.4/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/wx-3.2",
+			"paths" : 
+			[
+				"wxWidgets-3.2.4/include/wx"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/wx/include",
+			"paths" : 
+			[
+				"cmake-build-debug/wxWidgets-3.2.4/lib/wx/include/osx_cocoa-unicode-3.2"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/wx/config",
+			"paths" : 
+			[
+				"cmake-build-debug/wxWidgets-3.2.4/lib/wx/config/osx_cocoa-unicode-3.2"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				""
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/wxWidgets",
+			"exportName" : "wxWidgetsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "wxbase::@8311d02cb6bda5344ad5",
+					"index" : 4
+				},
+				{
+					"id" : "wxnet::@0481d69f365d41e0853a",
+					"index" : 10
+				},
+				{
+					"id" : "wxcore::@2bd704479a55e9162341",
+					"index" : 5
+				},
+				{
+					"id" : "wxadv::@4cbc6a9123adce3b0079",
+					"index" : 2
+				},
+				{
+					"id" : "wxaui::@76437b7c8cdd2845e871",
+					"index" : 3
+				},
+				{
+					"id" : "wxhtml::@536a3a9242b44e42ac76",
+					"index" : 7
+				},
+				{
+					"id" : "wxpropgrid::@defce5d64e395c9794ca",
+					"index" : 12
+				},
+				{
+					"id" : "wxribbon::@71c03c8db705e394b7f1",
+					"index" : 16
+				},
+				{
+					"id" : "wxrichtext::@0c2918dda8f0e7a4636f",
+					"index" : 17
+				},
+				{
+					"id" : "wxwebview::@3d4071abba3247275243",
+					"index" : 21
+				},
+				{
+					"id" : "wxstc::@f0967d41083983ce492b",
+					"index" : 19
+				},
+				{
+					"id" : "wxxrc::@e4db02d2271b62e03fef",
+					"index" : 23
+				},
+				{
+					"id" : "wxmedia::@2d3637a431e8e63a8cc7",
+					"index" : 9
+				},
+				{
+					"id" : "wxgl::@a45cf2ce72260b168a11",
+					"index" : 6
+				},
+				{
+					"id" : "wxqa::@6441c5dc76cdc894db24",
+					"index" : 13
+				},
+				{
+					"id" : "wxxml::@c9aacc41b06cb8779361",
+					"index" : 22
+				}
+			],
+			"paths" : 
+			[
+				"wxWidgets-3.2.4/CMakeFiles/Export/82dea25457d57761b815f3a88ce12492/wxWidgetsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/wxWidgets",
+			"paths" : 
+			[
+				"cmake-build-debug/wxWidgets-3.2.4/lib/wxWidgetsConfig.cmake",
+				"cmake-build-debug/wxWidgets-3.2.4/lib/wxWidgetsConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "wxWidgets-3.2.4",
+		"source" : "wxWidgets-3.2.4"
+	}
+}

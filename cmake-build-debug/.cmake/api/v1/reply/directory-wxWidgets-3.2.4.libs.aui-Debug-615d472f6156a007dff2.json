@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"wx_install",
+			"wx_add_library"
+		],
+		"files" : 
+		[
+			"wxWidgets-3.2.4/build/cmake/functions.cmake",
+			"wxWidgets-3.2.4/build/cmake/lib/aui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 457,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"wxWidgets-3.2.4/lib/libwx_osx_cocoau_aui-3.2.0.2.2.dylib",
+				"wxWidgets-3.2.4/lib/libwx_osx_cocoau_aui-3.2.0.dylib"
+			],
+			"targetId" : "wxaui::@76437b7c8cdd2845e871",
+			"targetIndex" : 3,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"wxWidgets-3.2.4/lib/libwx_osx_cocoau_aui-3.2.dylib"
+			],
+			"targetId" : "wxaui::@76437b7c8cdd2845e871",
+			"targetIndex" : 3,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "wxWidgets-3.2.4/libs/aui",
+		"source" : "wxWidgets-3.2.4/build/cmake/lib/aui"
+	}
+}

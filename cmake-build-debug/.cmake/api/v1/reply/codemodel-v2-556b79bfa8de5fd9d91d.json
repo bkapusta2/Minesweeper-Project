@@ -1,0 +1,614 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4",
+					"childIndexes" : 
+					[
+						2,
+						19
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4-Debug-0f2ec08f68b3ec4403b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs-Debug-e3c012c49b606608bf25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib",
+					"targetIndexes" : 
+					[
+						8,
+						11,
+						15,
+						20
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/base",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.base-Debug-7c215b264a5d25d5c9ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/base",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/net",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.net-Debug-97c105d65abeed719ec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/net",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.core-Debug-d29c312950db13778ed7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/core",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/adv",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.adv-Debug-d24383d18e65d6422f31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/adv",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/aui",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.aui-Debug-615d472f6156a007dff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/aui",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/html",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.html-Debug-8cb8e5076f2890abbd63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/html",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/propgrid",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.propgrid-Debug-98d4076a7d8234440f8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/propgrid",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/ribbon",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.ribbon-Debug-adf859f23af1a555404d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/ribbon",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/richtext",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.richtext-Debug-9f2babccdbe8ceb13510.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/richtext",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/webview",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.webview-Debug-77c9a8c5d25308d66f80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/webview",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/stc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.stc-Debug-b95f7d74dbd685a4586a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/stc",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/xrc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.xrc-Debug-2d0bfe47f3138c8facd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/xrc",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/media",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.media-Debug-c19d95f28cfe83cbc97a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/media",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.gl-Debug-96df1229c27a99c13d65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/gl",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/qa",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.qa-Debug-0cd1af95da8eae660866.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/qa",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/libs/xml",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.libs.xml-Debug-0004173d6e5cc704e661.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/lib/xml",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "wxWidgets-3.2.4/utils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wxWidgets-3.2.4.utils-Debug-f74879fbd199f756b310.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "wxWidgets-3.2.4/build/cmake/utils",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Minesweeper_Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					],
+					"name" : "wxWidgets",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Minesweeper_Project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Minesweeper_Project-Debug-544bd31ba652fa26120d.json",
+					"name" : "Minesweeper_Project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@699d4151a84abf26b1b5",
+					"jsonFile" : "target-uninstall-Debug-ee1d0b64e0065b5d335f.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "wxadv::@4cbc6a9123adce3b0079",
+					"jsonFile" : "target-wxadv-Debug-3265f279936e05564c50.json",
+					"name" : "wxadv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "wxaui::@76437b7c8cdd2845e871",
+					"jsonFile" : "target-wxaui-Debug-838e3af3cdf7064209d3.json",
+					"name" : "wxaui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "wxbase::@8311d02cb6bda5344ad5",
+					"jsonFile" : "target-wxbase-Debug-9879ed573d059ddf81f7.json",
+					"name" : "wxbase",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "wxcore::@2bd704479a55e9162341",
+					"jsonFile" : "target-wxcore-Debug-02c64cf2f5af6539ca45.json",
+					"name" : "wxcore",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "wxgl::@a45cf2ce72260b168a11",
+					"jsonFile" : "target-wxgl-Debug-43d6efc3aaa0a5b75e78.json",
+					"name" : "wxgl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "wxhtml::@536a3a9242b44e42ac76",
+					"jsonFile" : "target-wxhtml-Debug-528965da71bb415f89fd.json",
+					"name" : "wxhtml",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "wxjpeg::@2abd6401599e2f096d4d",
+					"jsonFile" : "target-wxjpeg-Debug-59cf4d2123a41a3b67d1.json",
+					"name" : "wxjpeg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "wxmedia::@2d3637a431e8e63a8cc7",
+					"jsonFile" : "target-wxmedia-Debug-825782f53b0e3737d1b7.json",
+					"name" : "wxmedia",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "wxnet::@0481d69f365d41e0853a",
+					"jsonFile" : "target-wxnet-Debug-df722e2d4da2d2dd16d2.json",
+					"name" : "wxnet",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "wxpng::@2abd6401599e2f096d4d",
+					"jsonFile" : "target-wxpng-Debug-fc4315aeca1f51dc1fb9.json",
+					"name" : "wxpng",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "wxpropgrid::@defce5d64e395c9794ca",
+					"jsonFile" : "target-wxpropgrid-Debug-48a79dd1c7e3a20d52e9.json",
+					"name" : "wxpropgrid",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "wxqa::@6441c5dc76cdc894db24",
+					"jsonFile" : "target-wxqa-Debug-1c4f972aea8d808061a4.json",
+					"name" : "wxqa",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "wxrc::@fd972cc876307adcfc70",
+					"jsonFile" : "target-wxrc-Debug-e921bdd1d904edd3e9bf.json",
+					"name" : "wxrc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "wxregex::@2abd6401599e2f096d4d",
+					"jsonFile" : "target-wxregex-Debug-10fa6721668e7b73a4e1.json",
+					"name" : "wxregex",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "wxribbon::@71c03c8db705e394b7f1",
+					"jsonFile" : "target-wxribbon-Debug-f13659efc3a29a85a31a.json",
+					"name" : "wxribbon",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "wxrichtext::@0c2918dda8f0e7a4636f",
+					"jsonFile" : "target-wxrichtext-Debug-d96d2b947809e026dae3.json",
+					"name" : "wxrichtext",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "wxscintilla::@f0967d41083983ce492b",
+					"jsonFile" : "target-wxscintilla-Debug-f0a7320e52285b90420d.json",
+					"name" : "wxscintilla",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "wxstc::@f0967d41083983ce492b",
+					"jsonFile" : "target-wxstc-Debug-a8d3ed922e27121fd50d.json",
+					"name" : "wxstc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "wxtiff::@2abd6401599e2f096d4d",
+					"jsonFile" : "target-wxtiff-Debug-33edc2f8dc4861627363.json",
+					"name" : "wxtiff",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "wxwebview::@3d4071abba3247275243",
+					"jsonFile" : "target-wxwebview-Debug-0a2b838c8f31812c240e.json",
+					"name" : "wxwebview",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "wxxml::@c9aacc41b06cb8779361",
+					"jsonFile" : "target-wxxml-Debug-002e6a8824b1e5a6f820.json",
+					"name" : "wxxml",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "wxxrc::@e4db02d2271b62e03fef",
+					"jsonFile" : "target-wxxrc-Debug-14d3699fa2e8845e7eb4.json",
+					"name" : "wxxrc",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug",
+		"source" : "/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

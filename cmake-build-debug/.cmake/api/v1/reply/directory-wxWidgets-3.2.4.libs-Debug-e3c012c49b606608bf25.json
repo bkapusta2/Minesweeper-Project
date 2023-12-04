@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "wxWidgets-3.2.4/libs",
+		"source" : "wxWidgets-3.2.4/build/cmake/lib"
+	}
+}
