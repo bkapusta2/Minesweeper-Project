@@ -20,6 +20,9 @@ public:
     // Go through all of the cells on the board and set the values
     // Must first create the board array, work on this.
     void setCellValues();
+
+    // Print console board for testing
+    void printBoard();
 };
 
 

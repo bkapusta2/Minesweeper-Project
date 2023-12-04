@@ -1,4 +1,4 @@
-#include "../include/Cell.h"
+#include "../../include/Cell.h"
 
 Cell::Cell() {
     numberOfSurroundingBombs = 0;

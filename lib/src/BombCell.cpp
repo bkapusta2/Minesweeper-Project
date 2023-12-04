@@ -1,4 +1,4 @@
-#include "../include/BombCell.h"
+#include "../../include/BombCell.h"
 
 BombCell::BombCell() : Cell() {
     numberOfSurroundingBombs = -1;

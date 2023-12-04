@@ -1,4 +1,4 @@
-#include "../include/OpenCell.h"
+#include "../../include/OpenCell.h"
 
 OpenCell::OpenCell() : Cell() {
     numberOfSurroundingBombs = 0;

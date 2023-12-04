@@ -1,6 +1,10 @@
 #include <iostream>
+#include "lib/include/Board.h"
+#include "lib/include/Cell.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Board* board = new Board();
+    board->setCells();
+    board->setCellValues();
     return 0;
 }

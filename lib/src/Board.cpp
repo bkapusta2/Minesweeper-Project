@@ -1,6 +1,6 @@
-#include "../include/Board.h"
-#include "../include/BombCell.h"
-#include "../include/OpenCell.h"
+#include "../../include/Board.h"
+#include "../../include/BombCell.h"
+#include "../../include/OpenCell.h"
 
 Board::Board(){
     this->size = 10;
@@ -55,5 +55,21 @@ void Board::setCellValues() {
                 board[x][y]->setNumberOfSurroundingBombs(cellBombCount);
             }
         }
+    }
+}
+
+// Show the board (for testing in console)
+void Board::printBoard() {
+    for (int x = 0; x < size; x++){
+        std::cout << "|";
+        for (int y = 0; y < size; y++){
+            if (board[x][y] != nullptr){
+                std::cout << board[x][y]->getSymbol() << "|";
+            }
+            else {
+                std::cout << " |";
+            }
+        }
+        std::cout << std::endl;
     }
 }
