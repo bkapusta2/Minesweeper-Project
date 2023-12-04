@@ -115,45 +115,45 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Cell.cpp",
+			"path" : "lib/src/Cell.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/Cell.h",
+			"path" : "lib/include/Cell.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Board.cpp",
+			"path" : "lib/src/Board.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/Board.h",
+			"path" : "lib/include/Board.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/BombCell.cpp",
+			"path" : "lib/src/BombCell.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/BombCell.h",
+			"path" : "lib/include/BombCell.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/OpenCell.cpp",
+			"path" : "lib/src/OpenCell.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/OpenCell.h",
+			"path" : "lib/include/OpenCell.h",
 			"sourceGroupIndex" : 1
 		}
 	],

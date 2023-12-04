@@ -9,9 +9,6 @@ public:
     OpenCell();
     ~OpenCell();
 
-    // Gets the value of the cell (if not a bomb)
-    virtual int getNumberOfSurroundingBombs();
-
     virtual void setNumberOfSurroundingBombs(int value);
 
     virtual int getValueInside();

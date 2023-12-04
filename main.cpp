@@ -6,5 +6,7 @@ int main() {
     Board* board = new Board();
     board->setCells();
     board->setCellValues();
+    board->printBoard();
+
     return 0;
 }

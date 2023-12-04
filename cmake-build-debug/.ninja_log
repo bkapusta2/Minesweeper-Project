@@ -1,0 +1,13 @@
+# ninja log v5
+9	69	1701661736692911264	build.ninja	bdc77a42ee75ae0e
+2	1913	1701661738613605443	CMakeFiles/Minesweeper_Project.dir/lib/src/BombCell.cpp.o	9abce1a9bbc26950
+1	1914	1701661738613560235	CMakeFiles/Minesweeper_Project.dir/lib/src/Cell.cpp.o	bd89a0e89699121e
+3	1914	1701661738613908237	CMakeFiles/Minesweeper_Project.dir/lib/src/OpenCell.cpp.o	7e021cb3f01104cd
+0	2165	1701661738865001578	CMakeFiles/Minesweeper_Project.dir/main.cpp.o	39033113abc15319
+2	2200	1701661738899801143	CMakeFiles/Minesweeper_Project.dir/lib/src/Board.cpp.o	ef026900fa908995
+22	55	1701661898161710406	CMakeFiles/Minesweeper_Project.dir/lib/src/Cell.cpp.o	bd89a0e89699121e
+6	37	1701661942240783147	CMakeFiles/Minesweeper_Project.dir/lib/src/OpenCell.cpp.o	7e021cb3f01104cd
+6	286	1701661942487264082	CMakeFiles/Minesweeper_Project.dir/lib/src/Board.cpp.o	ef026900fa908995
+286	324	1701661942528431190	Minesweeper_Project	80595ff2c45f523
+6	315	1701661973459426913	CMakeFiles/Minesweeper_Project.dir/lib/src/Board.cpp.o	ef026900fa908995
+316	353	1701661973499305679	Minesweeper_Project	80595ff2c45f523

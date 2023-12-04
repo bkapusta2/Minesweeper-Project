@@ -7,3 +7,11 @@ Cell::Cell() {
 void Cell::setNumberOfSurroundingBombs(int value) {
     numberOfSurroundingBombs = value;
 }
+
+int Cell::getValueInside() {
+    return numberOfSurroundingBombs;
+}
+
+char Cell::getSymbol() {
+    return 'P';
+}

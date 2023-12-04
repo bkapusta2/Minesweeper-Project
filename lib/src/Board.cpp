@@ -1,6 +1,9 @@
 #include "../include/Board.h"
 #include "../include/BombCell.h"
 #include "../include/OpenCell.h"
+#include <iostream>
+
+using std::cout, std::endl;
 
 Board::Board(){
     this->size = 10;
@@ -13,7 +16,7 @@ void Board::setCells(){
     for (int y = 0; y < board.size(); y++){
         for (int x = 0; x < board.size(); x++){
             int randomValue = std::rand() % 10 + 1;
-            if (randomValue <= 1) {
+            if (randomValue <= 2) {
                 board[x][y] = new BombCell();
             }
             else {
@@ -60,14 +63,14 @@ void Board::setCellValues() {
 
 // Show the board (for testing in console)
 void Board::printBoard() {
-    for (int y = 0; y < size; x++){
-        std::cout << "|";
-        for (int x = 0; x < size; y++){
+    for (int y = 0; y < size; y++){
+        cout << "|";
+        for (int x = 0; x < size; x++){
             if (board[x][y] != nullptr){
-                std::cout << board[x][y]->getSymbol() << "|";
+                cout << board[x][y]->getSymbol() << "|";
             }
             else {
-                std::cout << " |";
+                cout << " |";
             }
         }
         std::cout << std::endl;
