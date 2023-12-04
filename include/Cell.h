@@ -12,6 +12,9 @@ public:
     // If -1 it should be a bomb
     virtual int getValueInside();
 
+    // Use only for OpenCell (bombs always are -1 value)
+    virtual void setNumberOfSurroundingBombs(int value);
+
     virtual char getSymbol();
 };
 
