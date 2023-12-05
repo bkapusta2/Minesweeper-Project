@@ -23,6 +23,8 @@ public:
 
     // Print console board for testing
     void printBoard();
+
+    int getBoardSize():
 };
 
 

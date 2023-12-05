@@ -76,3 +76,8 @@ void Board::printBoard() {
         std::cout << std::endl;
     }
 }
+
+// Return the size of the board given
+int Board::getBoardSize() {
+    return board.size();
+}
