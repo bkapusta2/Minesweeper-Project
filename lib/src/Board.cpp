@@ -8,6 +8,15 @@ using std::cout, std::endl;
 Board::Board(){
     this->size = 10;
     board.resize(size, std::vector<Cell*>(size, nullptr));
+    gameEnded = false;
+}
+
+Board::~Board() {
+    for (int y = 0; y < board.size(); y++) {
+        for (int x = 0; x < board.size(); x++) {
+            delete board[x][y];
+        }
+    }
 }
 
 // This will create all of the cells randomly with a 20% chance of each cell being a bomb.
@@ -80,4 +89,24 @@ void Board::printBoard() {
 // Return the size of the board given
 int Board::getBoardSize() {
     return board.size();
+}
+
+Cell& Board::getCell(int x, int y){
+    return *(board[x][y]);
+}
+
+void Board::clickCell(int x, int y) {
+    if (!gameEnded){
+        Cell& clickedCell = *board[x][y];
+        if (clickedCell.getSymbol() == 'B') {
+            // Handle bomb click, end the game
+            clickedCell.setRevealed(true);
+            gameEnded = true;
+            // LATER IMPLEMENT REVEALING WHOLE BOARD
+        }
+        else {
+            clickedCell.setRevealed(true);
+            // update/rerender
+        }
+    }
 }

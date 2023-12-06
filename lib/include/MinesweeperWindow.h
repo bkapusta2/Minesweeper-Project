@@ -11,6 +11,8 @@ public:
 private:
     Board board;
     wxButton* cellButtons[10][10];
+    void OnExit(wxCommandEvent& event);
+    void OnAbout(wxCommandEvent& event);
     void makeBoard();
     void rerenderGUI();
 };

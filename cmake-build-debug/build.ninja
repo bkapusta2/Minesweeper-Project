@@ -89,13 +89,13 @@ build CMakeFiles/Minesweeper_Project.dir/lib/src/OpenCell.cpp.o: CXX_COMPILER__M
   OBJECT_DIR = CMakeFiles/Minesweeper_Project.dir
   OBJECT_FILE_DIR = CMakeFiles/Minesweeper_Project.dir/lib/src
 
-build CMakeFiles/Minesweeper_Project.dir/lib/include/MinesweeperWindow.cpp.o: CXX_COMPILER__Minesweeper_Project_unscanned_Debug /Users/briankapusta/Documents/GitHub/Minesweeper$ Project/Minesweeper-Project/lib/include/MinesweeperWindow.cpp || cmake_object_order_depends_target_Minesweeper_Project
+build CMakeFiles/Minesweeper_Project.dir/lib/src/MinesweeperWindow.cpp.o: CXX_COMPILER__Minesweeper_Project_unscanned_Debug /Users/briankapusta/Documents/GitHub/Minesweeper$ Project/Minesweeper-Project/lib/src/MinesweeperWindow.cpp || cmake_object_order_depends_target_Minesweeper_Project
   DEFINES = -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D_UNICODE -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__
-  DEP_FILE = CMakeFiles/Minesweeper_Project.dir/lib/include/MinesweeperWindow.cpp.o.d
+  DEP_FILE = CMakeFiles/Minesweeper_Project.dir/lib/src/MinesweeperWindow.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   INCLUDES = -I"/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/lib/wx/include/osx_cocoa-unicode-3.2" -I"/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/wxWidgets-3.2.4/include"
   OBJECT_DIR = CMakeFiles/Minesweeper_Project.dir
-  OBJECT_FILE_DIR = CMakeFiles/Minesweeper_Project.dir/lib/include
+  OBJECT_FILE_DIR = CMakeFiles/Minesweeper_Project.dir/lib/src
 
 
 # =============================================================================
@@ -105,7 +105,7 @@ build CMakeFiles/Minesweeper_Project.dir/lib/include/MinesweeperWindow.cpp.o: CX
 #############################################
 # Link the executable Minesweeper_Project
 
-build Minesweeper_Project: CXX_EXECUTABLE_LINKER__Minesweeper_Project_Debug CMakeFiles/Minesweeper_Project.dir/main.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/Cell.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/Board.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/BombCell.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/OpenCell.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/include/MinesweeperWindow.cpp.o | wxWidgets-3.2.4/lib/libwx_baseu_net-3.2.0.2.2.dylib wxWidgets-3.2.4/lib/libwx_osx_cocoau_core-3.2.0.2.2.dylib wxWidgets-3.2.4/lib/libwx_baseu-3.2.0.2.2.dylib || wxWidgets-3.2.4/lib/libwx_baseu-3.2.dylib wxWidgets-3.2.4/lib/libwx_baseu_net-3.2.dylib wxWidgets-3.2.4/lib/libwx_osx_cocoau_core-3.2.dylib wxWidgets-3.2.4/lib/libwx_baseu_net-3.2.dylib wxWidgets-3.2.4/lib/libwx_osx_cocoau_core-3.2.dylib wxWidgets-3.2.4/lib/libwx_baseu-3.2.dylib
+build Minesweeper_Project: CXX_EXECUTABLE_LINKER__Minesweeper_Project_Debug CMakeFiles/Minesweeper_Project.dir/main.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/Cell.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/Board.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/BombCell.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/OpenCell.cpp.o CMakeFiles/Minesweeper_Project.dir/lib/src/MinesweeperWindow.cpp.o | wxWidgets-3.2.4/lib/libwx_baseu_net-3.2.0.2.2.dylib wxWidgets-3.2.4/lib/libwx_osx_cocoau_core-3.2.0.2.2.dylib wxWidgets-3.2.4/lib/libwx_baseu-3.2.0.2.2.dylib || wxWidgets-3.2.4/lib/libwx_baseu-3.2.dylib wxWidgets-3.2.4/lib/libwx_baseu_net-3.2.dylib wxWidgets-3.2.4/lib/libwx_osx_cocoau_core-3.2.dylib wxWidgets-3.2.4/lib/libwx_baseu_net-3.2.dylib wxWidgets-3.2.4/lib/libwx_osx_cocoau_core-3.2.dylib wxWidgets-3.2.4/lib/libwx_baseu-3.2.dylib
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,"/Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug/wxWidgets-3.2.4/lib"  wxWidgets-3.2.4/lib/libwx_baseu_net-3.2.0.2.2.dylib  wxWidgets-3.2.4/lib/libwx_osx_cocoau_core-3.2.0.2.2.dylib  wxWidgets-3.2.4/lib/libwx_baseu-3.2.0.2.2.dylib  -framework CoreFoundation  -framework Carbon  -framework Cocoa  -framework IOKit  -framework QuartzCore  -framework AudioToolbox  -framework WebKit
   OBJECT_DIR = CMakeFiles/Minesweeper_Project.dir

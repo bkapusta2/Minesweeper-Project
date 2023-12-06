@@ -2,6 +2,7 @@
 
 Cell::Cell() {
     numberOfSurroundingBombs = 0;
+    revealed = false;
 }
 
 void Cell::setNumberOfSurroundingBombs(int value) {
@@ -15,3 +16,11 @@ int Cell::getValueInside() {
 char Cell::getSymbol() {
     return 'P';
 }
+
+void Cell::setRevealed(bool revealed) {
+    this->revealed = revealed;
+}
+
+bool Cell::isRevealed() {
+    return this->revealed;
+};

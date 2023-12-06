@@ -5,9 +5,9 @@
 class OpenCell : public Cell {
 private:
     int numberOfSurroundingBombs;
+    bool revealed;
 public:
     OpenCell();
-    ~OpenCell();
 
     virtual void setNumberOfSurroundingBombs(int value);
 

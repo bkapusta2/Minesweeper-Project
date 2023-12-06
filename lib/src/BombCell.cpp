@@ -2,6 +2,7 @@
 
 BombCell::BombCell() : Cell() {
     numberOfSurroundingBombs = -1;
+    revealed = false;
 }
 
 

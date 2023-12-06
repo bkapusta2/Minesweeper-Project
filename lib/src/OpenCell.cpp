@@ -2,6 +2,7 @@
 
 OpenCell::OpenCell() : Cell() {
     numberOfSurroundingBombs = 0;
+    revealed = false;
 }
 
 void OpenCell::setNumberOfSurroundingBombs(int value) {

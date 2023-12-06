@@ -6,6 +6,7 @@
 class BombCell : public Cell {
 private:
     int numberOfSurroundingBombs;
+    bool revealed;
 public:
     BombCell();
     ~BombCell();

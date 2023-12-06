@@ -11,6 +11,7 @@ private:
     int size;
 public:
     vector<vector<Cell*>> board;
+    bool gameEnded;
 
     Board();
     ~Board();
@@ -24,7 +25,11 @@ public:
     // Print console board for testing
     void printBoard();
 
-    int getBoardSize():
+    int getBoardSize();
+
+    Cell& getCell(int x, int y);
+
+    void clickCell(int x, int y);
 };
 
 
