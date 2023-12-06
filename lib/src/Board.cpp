@@ -105,7 +105,25 @@ void Board::clickCell(int x, int y) {
             // LATER IMPLEMENT REVEALING WHOLE BOARD
         }
         else {
-            // Go through each surrounding element and if 0, something
+            // Go through each surrounding element and if 0, reveal all of the values around (no bombs)
+            if (clickedCell.getValueInside() == 0) {
+                for (int deltaY = -1; deltaY <= 1; deltaY ++) {
+                    for (int deltaX = -1; deltaX <= 1; deltaX ++) {
+                        // If the current cell, skip
+                        if (deltaY == 0 && deltaX == 0) {
+                            continue;
+                        }
+                        int currentlyCheckingY = y + deltaY;
+                        int currentlyCheckingX = x + deltaX;
+                        // If the cell is within the bounds of the board and is a bomb, add one to the bomb count
+                        if (currentlyCheckingY >= 0 && currentlyCheckingX >= 0 &&
+                            currentlyCheckingY < board.size() && currentlyCheckingX < board.size()) {
+                            Cell& surroundingCell = *board[currentlyCheckingX][currentlyCheckingY];
+                            surroundingCell.setRevealed(true);
+                        }
+                    }
+                }
+            }
             clickedCell.setRevealed(true);
         }
     }

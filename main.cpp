@@ -7,7 +7,7 @@
 
 class MinesweeperApp: public wxApp {
 public:
-    virtual bool OnInit() override;
+    virtual bool OnInit();
 };
 
 
@@ -16,7 +16,7 @@ wxIMPLEMENT_APP(MinesweeperApp);
 
 bool MinesweeperApp::OnInit()
 {
-    MinesweeperWindow* window = new MinesweeperWindow( "Minesweeper", wxPoint(50, 50), wxSize(450, 340) );
+    MinesweeperWindow* window = new MinesweeperWindow( "Minesweeper", wxPoint(100, 100), wxSize(507, 527) );
     window->Show( true );
     return true;
 }
