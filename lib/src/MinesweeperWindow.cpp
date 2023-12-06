@@ -33,7 +33,12 @@ void MinesweeperWindow::rerenderGUI() {
             int value = board.board[x][y]->getValueInside();
             wxString buttonText = "";
             if (board.board[x][y]->isRevealed()) {
-                buttonText = wxString::Format("%c%d", symbol, value);
+                if (symbol == 'B') {
+                    buttonText = wxString::Format("%c", symbol);
+                }
+                else {
+                    buttonText = wxString::Format("%d", value);
+                }
             }
             // if cell[x][y] is revealed, set the label, else leave blank
             cellButtons[x][y]->SetLabel(buttonText);

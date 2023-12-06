@@ -105,8 +105,8 @@ void Board::clickCell(int x, int y) {
             // LATER IMPLEMENT REVEALING WHOLE BOARD
         }
         else {
+            // Go through each surrounding element and if 0, something
             clickedCell.setRevealed(true);
-            // update/rerender
         }
     }
 }
