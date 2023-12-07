@@ -27,6 +27,8 @@ public:
     void clickCell(int x, int y);
 
     void resetBoard();
+
+    void checkGameSuccess();
 };
 
 

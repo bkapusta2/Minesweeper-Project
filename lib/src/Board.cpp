@@ -25,7 +25,7 @@ void Board::setCells(){
     for (int y = 0; y < board.size(); y++){
         for (int x = 0; x < board.size(); x++){
             int randomValue = std::rand() % 10 + 1;
-            if (randomValue <= 2) {
+            if (randomValue <= 1) {
                 board[x][y] = new BombCell();
             }
             else {
@@ -125,4 +125,26 @@ void Board::resetBoard() {
     gameEnded = false;
     this->setCells();
     this->setCellValues();
+}
+
+// Check if the player has beaten the game
+void Board::checkGameSuccess() {
+    int numberOfOpen = 0;
+    int numberOfRevealedOpen = 0;
+    /* Go through each open cell
+     * - If the number of open cells is equal to the number of open cells revealed, set gameEnded
+     */
+    for (int y = 0; y < board.size(); y++) {
+        for (int x = 0; x < board.size(); x++) {
+            if (board[x][y]->getSymbol() == 'O') {
+                numberOfOpen++;
+                if (board[x][y]->isRevealed()) {
+                    numberOfRevealedOpen++;
+                }
+            }
+        }
+    }
+    if (numberOfOpen == numberOfRevealedOpen) {
+        gameEnded = true;
+    }
 }

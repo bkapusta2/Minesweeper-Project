@@ -876,3 +876,11 @@
 100	1115	1701953846283228983	CMakeFiles/Minesweeper_Project.dir/main.cpp.o	a17cc6f227934a3c
 101	1130	1701953846299605305	CMakeFiles/Minesweeper_Project.dir/lib/src/MinesweeperWindow.cpp.o	6b40420990d0baeb
 1130	1304	1701953846475949289	Minesweeper_Project	4c1fa0f0ebe71ef3
+84	359	1701957338277031774	CMakeFiles/Minesweeper_Project.dir/lib/src/Cell.cpp.o	85ca11036b38a9a
+84	360	1701957338277031691	CMakeFiles/Minesweeper_Project.dir/lib/src/OpenCell.cpp.o	8899b18922309311
+84	610	1701957338527771383	CMakeFiles/Minesweeper_Project.dir/lib/src/Board.cpp.o	61565d1d79920988
+83	1015	1701957338929836887	CMakeFiles/Minesweeper_Project.dir/main.cpp.o	a17cc6f227934a3c
+84	1042	1701957338957531613	CMakeFiles/Minesweeper_Project.dir/lib/src/MinesweeperWindow.cpp.o	6b40420990d0baeb
+1042	1211	1701957339129598937	Minesweeper_Project	4c1fa0f0ebe71ef3
+83	1059	1701957556840425936	CMakeFiles/Minesweeper_Project.dir/lib/src/MinesweeperWindow.cpp.o	6b40420990d0baeb
+1059	1230	1701957557013751297	Minesweeper_Project	4c1fa0f0ebe71ef3
