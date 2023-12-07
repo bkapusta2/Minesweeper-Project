@@ -12,6 +12,7 @@ private:
     wxTimer timer;
     int timeElapsed;
     wxStaticText* timerText;
+    wxStaticText* statusText;
     Board board;
     wxButton* cellButtons[10][10];
     void OnExit(wxCommandEvent& event);

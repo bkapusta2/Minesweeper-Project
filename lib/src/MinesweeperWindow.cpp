@@ -5,7 +5,10 @@ MinesweeperWindow::MinesweeperWindow(const wxString &title, const wxPoint &pos, 
         :wxFrame(NULL, wxID_ANY, title, pos, size), board(), timeElapsed(0) {
     board.setCells();
     board.setCellValues();
-    timerText = new wxStaticText(this, wxID_ANY, "Timer: 0s", wxPoint(225, 10));
+    timerText = new wxStaticText(this, wxID_ANY, "Timer: 0s", wxPoint(210, 10));
+    wxFont timerFont(20, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_EXTRABOLD);
+    timerText->SetFont(timerFont);
+    statusText = new wxStaticText(this, wxID_ANY, "Game in progress", wxPoint(10, 10));
     timer.SetOwner(this, wxID_ANY);
     timer.Start(1000);
     // Binds the timer object to the OnTick function and this MinesweeperWindow
@@ -71,6 +74,12 @@ void MinesweeperWindow::rerenderGUI() {
             cellButtons[x][y]->SetLabel(buttonText);
         }
     }
+    if (board.gameEnded) {
+        wxString newStatusText = wxString("GAME OVER!!!");
+        wxFont statusFont(16, wxFONTFAMILY_TELETYPE, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_EXTRABOLD);
+        statusText->SetFont(statusFont);
+        statusText->SetLabel(newStatusText);
+    }
 }
 
 void MinesweeperWindow::OnExit(wxCommandEvent& event)
@@ -91,6 +100,8 @@ void MinesweeperWindow::resetGame(wxCommandEvent &event) {
     timeElapsed = 0;
     wxString newTickLabel = wxString::Format("Timer: %ds", timeElapsed);
     timerText->SetLabel(newTickLabel);
+    wxString newStatusText = wxString("Game in progress");
+    statusText->SetLabel(newStatusText);
     int boardSize = board.getBoardSize();
     for (int y = 0; y < boardSize; y++) {
         for (int x = 0; x < boardSize; x++) {
