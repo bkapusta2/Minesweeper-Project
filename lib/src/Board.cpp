@@ -25,7 +25,7 @@ void Board::setCells(){
     for (int y = 0; y < board.size(); y++){
         for (int x = 0; x < board.size(); x++){
             int randomValue = std::rand() % 10 + 1;
-            if (randomValue <= 1) {
+            if (randomValue <= 2) {
                 board[x][y] = new BombCell();
             }
             else {
