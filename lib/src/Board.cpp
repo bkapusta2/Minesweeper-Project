@@ -59,7 +59,6 @@ void Board::setCellValues() {
                             cellBombCount++;
                         }
                     }
-
                 }
             }
             /*

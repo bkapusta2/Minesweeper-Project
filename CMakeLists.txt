@@ -15,6 +15,7 @@ add_executable(Minesweeper_Project main.cpp
         lib/src/OpenCell.cpp
         lib/include/OpenCell.h
         lib/src/MinesweeperWindow.cpp
-        lib/include/MinesweeperWindow.h)
+        lib/include/MinesweeperWindow.h
+        Testing.cpp)
 
 target_link_libraries(Minesweeper_Project wx::net wx::core wx::base)

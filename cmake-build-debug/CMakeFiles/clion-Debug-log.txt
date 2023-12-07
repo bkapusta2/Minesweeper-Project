@@ -19,6 +19,6 @@
     Should wxWidgets be linked as a shared library?    ON
     Should wxWidgets support Unicode?                  ON
     What wxWidgets compatibility level should be used? 3.0
--- Configuring done (0.3s)
+-- Configuring done (0.2s)
 -- Generating done (0.1s)
 -- Build files have been written to: /Users/briankapusta/Documents/GitHub/Minesweeper Project/Minesweeper-Project/cmake-build-debug
