@@ -16,6 +16,7 @@ private:
     wxButton* cellButtons[10][10];
     void OnExit(wxCommandEvent& event);
     void OnTick(wxTimerEvent& event);
+    void resetGame(wxCommandEvent& event);
     void makeBoard();
     void rerenderGUI();
 };

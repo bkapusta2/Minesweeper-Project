@@ -136,3 +136,9 @@ void Board::clickCell(int x, int y) {
         }
     }
 }
+
+void Board::resetBoard() {
+    gameEnded = false;
+    this->setCells();
+    this->setCellValues();
+}

@@ -30,6 +30,8 @@ public:
     Cell& getCell(int x, int y);
 
     void clickCell(int x, int y);
+
+    void resetBoard();
 };
 
 

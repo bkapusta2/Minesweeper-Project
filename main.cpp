@@ -16,7 +16,7 @@ wxIMPLEMENT_APP(MinesweeperApp);
 
 bool MinesweeperApp::OnInit()
 {
-    MinesweeperWindow* window = new MinesweeperWindow( "Minesweeper", wxPoint(100, 100), wxSize(507, 557) );
+    MinesweeperWindow* window = new MinesweeperWindow( "Minesweeper", wxPoint(100, 100), wxSize(507, 650) );
     window->Show( true );
     return true;
 }

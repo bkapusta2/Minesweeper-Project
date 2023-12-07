@@ -10,6 +10,8 @@ MinesweeperWindow::MinesweeperWindow(const wxString &title, const wxPoint &pos, 
     timer.Start(1000);
     // Binds the timer object to the OnTick function and this MinesweeperWindow
     Bind(wxEVT_TIMER, &MinesweeperWindow::OnTick, this);
+    wxButton* resetGameButton = new wxButton(this, wxID_ANY, "Restart", wxPoint(230, 540), wxSize(80, 30));
+    resetGameButton->Bind(wxEVT_BUTTON, &MinesweeperWindow::resetGame, this);
     makeBoard();
     rerenderGUI();
 }
@@ -20,9 +22,6 @@ void MinesweeperWindow::makeBoard() {
         for (int x = 0; x < boardSize; x++) {
             cellButtons[x][y] = new wxButton(this, wxID_ANY, "", wxPoint(x * 50, (y * 50) + 30), wxSize(50, 50));
             cellButtons[x][y]->Bind(wxEVT_BUTTON, [this, x, y](wxCommandEvent& event) {
-                // Implement button click event based on the button
-                // Use gameBoard methods to update the board state
-                // Example: gameBoard.clickCell(x, y);
                 // Add checking for if the game is over through the board
                     // If a bomb is clicked or if all the OpenCells are revealed
                 board.clickCell(x,y);
@@ -74,7 +73,23 @@ void MinesweeperWindow::OnExit(wxCommandEvent& event)
 void MinesweeperWindow::OnTick(wxTimerEvent& event){
     if (!board.gameEnded) {
         timeElapsed++;
-        wxString newLabel = wxString::Format("Timer: %ds", timeElapsed);
-        timerText->SetLabel(newLabel);
+        wxString newTickLabel = wxString::Format("Timer: %ds", timeElapsed);
+        timerText->SetLabel(newTickLabel);
     }
+}
+
+void MinesweeperWindow::resetGame(wxCommandEvent &event) {
+    board.resetBoard();
+    timeElapsed = 0;
+    wxString newTickLabel = wxString::Format("Timer: %ds", timeElapsed);
+    timerText->SetLabel(newTickLabel);
+    int boardSize = board.getBoardSize();
+    for (int y = 0; y < boardSize; y++) {
+        for (int x = 0; x < boardSize; x++) {
+            // Sets the color to the reset buttons to the original wxButton color
+            wxColour defaultColor = wxSystemSettings::GetColour(wxSYS_COLOUR_BTNFACE);
+            cellButtons[x][y]->SetBackgroundColour(defaultColor);
+        }
+    }
+    rerenderGUI();
 }
