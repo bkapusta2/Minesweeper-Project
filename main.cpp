@@ -13,7 +13,7 @@ public:
 
 wxIMPLEMENT_APP(MinesweeperApp);
 
-
+// When running the application create and show the window
 bool MinesweeperApp::OnInit()
 {
     MinesweeperWindow* window = new MinesweeperWindow( "Minesweeper", wxPoint(100, 100), wxSize(507, 650) );

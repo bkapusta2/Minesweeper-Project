@@ -19,7 +19,7 @@ Board::~Board() {
     }
 }
 
-// This will create all of the cells randomly with a 20% chance of each cell being a bomb.
+// This will create all the cells randomly with a 20% chance of each cell being a bomb.
 // Maybe try to implement adding a certain difficult (easy is 10% and hard is 30%)
 void Board::setCells(){
     for (int y = 0; y < board.size(); y++){
@@ -35,14 +35,14 @@ void Board::setCells(){
     }
 }
 
-// Set the internal value of each cell depending on if its a bomb (-1)
-// or how many bombs are directly surrounding it
+/* Set the internal value of each cell depending on if it's a bomb (-1)
+ * or how many bombs are directly surrounding it
+ */
 void Board::setCellValues() {
     for (int y = 0; y < board.size(); y++){
         for (int x = 0; x < board.size(); x++){
             // Counting the number of bombs surrounding the currently looked at cell
             int cellBombCount = 0;
-
             // Going through each spot around the current cell
             for (int deltaY = -1; deltaY <= 1; deltaY ++) {
                 for (int deltaX = -1; deltaX <= 1; deltaX ++) {
@@ -62,27 +62,13 @@ void Board::setCellValues() {
 
                 }
             }
-
+            /*
+             * If the symbol of the current cell is Open, then set the internal value
+             */
             if (board[x][y]->getSymbol() == 'O') {
                 board[x][y]->setNumberOfSurroundingBombs(cellBombCount);
             }
         }
-    }
-}
-
-// Show the board (for testing in console)
-void Board::printBoard() {
-    for (int y = 0; y < size; y++) {
-        cout << "|";
-        for (int x = 0; x < size; x++) {
-            if (board[x][y] != nullptr) {
-                cout << board[x][y]->getSymbol() << board[x][y]->getValueInside() << "|";
-            }
-            else {
-                cout << " |";
-            }
-        }
-        std::cout << std::endl;
     }
 }
 
@@ -91,15 +77,12 @@ int Board::getBoardSize() {
     return board.size();
 }
 
-Cell& Board::getCell(int x, int y){
-    return *(board[x][y]);
-}
-
 void Board::clickCell(int x, int y) {
+    // If the game isn't ended, allow for the clicking of cells
     if (!gameEnded){
         Cell& clickedCell = *board[x][y];
         if (clickedCell.getSymbol() == 'B') {
-            // Handle bomb click, end the game
+            // Handle bomb click, end the game, and reveal all bombs
             clickedCell.setRevealed(true);
             for (int j = 0; j < board.size(); j++){
                 for (int i = 0; i < board.size(); i++) {
@@ -110,10 +93,10 @@ void Board::clickCell(int x, int y) {
                 }
             }
             gameEnded = true;
-            // LATER IMPLEMENT REVEALING WHOLE BOARD
         }
+        // If an open cell, reveal the value
         else {
-            // Go through each surrounding element and if 0, reveal all of the values around (no bombs)
+            // Go through each surrounding element and if 0, reveal all the values around (no bombs)
             if (clickedCell.getValueInside() == 0) {
                 for (int deltaY = -1; deltaY <= 1; deltaY ++) {
                     for (int deltaX = -1; deltaX <= 1; deltaX ++) {
@@ -137,6 +120,7 @@ void Board::clickCell(int x, int y) {
     }
 }
 
+// Re randomizes all the cells and values
 void Board::resetBoard() {
     gameEnded = false;
     this->setCells();

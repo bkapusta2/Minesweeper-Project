@@ -18,16 +18,11 @@ public:
 
     void setCells();
 
-    // Go through all of the cells on the board and set the values
+    // Go through all the cells on the board and set the values
     // Must first create the board array, work on this.
     void setCellValues();
 
-    // Print console board for testing
-    void printBoard();
-
     int getBoardSize();
-
-    Cell& getCell(int x, int y);
 
     void clickCell(int x, int y);
 

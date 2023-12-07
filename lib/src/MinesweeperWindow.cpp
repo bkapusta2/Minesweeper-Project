@@ -1,6 +1,7 @@
 #include "../include/MinesweeperWindow.h"
 #include "../include/Cell.h"
 
+// Minesweeper game constructor
 MinesweeperWindow::MinesweeperWindow(const wxString &title, const wxPoint &pos, const wxSize &size)
         :wxFrame(NULL, wxID_ANY, title, pos, size), board(), timeElapsed(0) {
     // Instantiating the board state
@@ -26,14 +27,15 @@ MinesweeperWindow::MinesweeperWindow(const wxString &title, const wxPoint &pos, 
     rerenderGUI();
 }
 
+/*
+ * Initializes the board cell buttons and renders the gui, setting the colors of the background color
+ */
 void MinesweeperWindow::makeBoard() {
     int boardSize = board.getBoardSize();
     for (int y = 0; y < boardSize; y++) {
         for (int x = 0; x < boardSize; x++) {
             cellButtons[x][y] = new wxButton(this, wxID_ANY, "", wxPoint(x * 50, (y * 50) + 50), wxSize(50, 50));
             cellButtons[x][y]->Bind(wxEVT_BUTTON, [this, x, y](wxCommandEvent& event) {
-                // Add checking for if the game is over through the board
-                    // If a bomb is clicked or if all the OpenCells are revealed
                 board.clickCell(x,y);
                 rerenderGUI();
             });
@@ -72,22 +74,23 @@ void MinesweeperWindow::rerenderGUI() {
                 * - If it isn't, reveal the inner cell value and set the color of the button to blue
                 */
                 else {
+                    // Different text colors for different inner cell values
                     wxColour textColor(255, 255, 255);
                     switch (board.board[x][y]->getValueInside()) {
                         case 1: {
-                            textColor = wxColour(255, 255, 255); // Red color (adjust RGB values as needed)
+                            textColor = wxColour(255, 255, 255); // White
                             break;
                         }
                         case 2: {
-                            textColor = wxColour(255, 165, 0); // Red color (adjust RGB values as needed)
+                            textColor = wxColour(255, 165, 0); // Gold
                             break;
                         }
                         case 3: {
-                            textColor = wxColour(255, 40, 255); // Red color (adjust RGB values as needed)
+                            textColor = wxColour(255, 40, 255); // Purple
                             break;
                         }
                         case 4: {
-                            textColor = wxColour(53, 255, 138); // Red color (adjust RGB values as needed)
+                            textColor = wxColour(53, 255, 138); // Green
                             break;
                         }
                     }
@@ -101,19 +104,24 @@ void MinesweeperWindow::rerenderGUI() {
             cellButtons[x][y]->SetLabel(buttonText);
         }
     }
+    // If the game is ended also set the game status to show state of the game (not just relying on timer)
     if (board.gameEnded) {
         wxString newStatusText = wxString("GAME OVER!!!");
         wxFont statusFont(16, wxFONTFAMILY_SWISS, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_EXTRABOLD);
         statusText->SetFont(statusFont);
         statusText->SetLabel(newStatusText);
     }
+    // Add checking for if the game is over through the board
+    // If all the OpenCells are revealed
 }
 
+// When exiting the window, close the app
 void MinesweeperWindow::OnExit(wxCommandEvent& event)
 {
     Close( true );
 }
 
+// OnTick function for the timer
 void MinesweeperWindow::OnTick(wxTimerEvent& event){
     if (!board.gameEnded) {
         timeElapsed++;
@@ -122,6 +130,13 @@ void MinesweeperWindow::OnTick(wxTimerEvent& event){
     }
 }
 
+/*
+ * Resets the game
+ * - Resets the board
+ * - Resets the game status label to 'In progress'
+ * - Resets the timer label and value
+ * - Resets all the board colors
+ */
 void MinesweeperWindow::resetGame(wxCommandEvent &event) {
     board.resetBoard();
     timeElapsed = 0;

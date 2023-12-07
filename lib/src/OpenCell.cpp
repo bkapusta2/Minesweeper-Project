@@ -5,6 +5,7 @@ OpenCell::OpenCell() : Cell() {
     revealed = false;
 }
 
+// Set the value of a cell based on the number of surrounding bombs
 void OpenCell::setNumberOfSurroundingBombs(int value) {
     numberOfSurroundingBombs = value;
 }
