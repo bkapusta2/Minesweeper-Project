@@ -3,18 +3,25 @@
 
 MinesweeperWindow::MinesweeperWindow(const wxString &title, const wxPoint &pos, const wxSize &size)
         :wxFrame(NULL, wxID_ANY, title, pos, size), board(), timeElapsed(0) {
+    // Instantiating the board state
     board.setCells();
     board.setCellValues();
+    // Instantiating all the timer values, positions, and styling
     timerText = new wxStaticText(this, wxID_ANY, "Timer: 0s", wxPoint(210, 10));
     wxFont timerFont(20, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_EXTRABOLD);
     timerText->SetFont(timerFont);
-    statusText = new wxStaticText(this, wxID_ANY, "Game in progress", wxPoint(10, 10));
     timer.SetOwner(this, wxID_ANY);
     timer.Start(1000);
     // Binds the timer object to the OnTick function and this MinesweeperWindow
     Bind(wxEVT_TIMER, &MinesweeperWindow::OnTick, this);
+    // Instantiating all the game status values, positions, and styling
+    statusText = new wxStaticText(this, wxID_ANY, "Game in progress", wxPoint(10, 10));
+    wxFont statusFont(16, wxFONTFAMILY_SWISS, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_EXTRABOLD);
+    statusText->SetFont(statusFont);
+    // Instantiate the button to reset the game, with the correct functions
     wxButton* resetGameButton = new wxButton(this, wxID_ANY, "Restart", wxPoint(210, 560), wxSize(80, 30));
     resetGameButton->Bind(wxEVT_BUTTON, &MinesweeperWindow::resetGame, this);
+    // MAKE AND RENDER THE BOARD FOR THE ACTUAL GUI WINDOW
     makeBoard();
     rerenderGUI();
 }
@@ -76,7 +83,7 @@ void MinesweeperWindow::rerenderGUI() {
     }
     if (board.gameEnded) {
         wxString newStatusText = wxString("GAME OVER!!!");
-        wxFont statusFont(16, wxFONTFAMILY_TELETYPE, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_EXTRABOLD);
+        wxFont statusFont(16, wxFONTFAMILY_SWISS, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_EXTRABOLD);
         statusText->SetFont(statusFont);
         statusText->SetLabel(newStatusText);
     }
