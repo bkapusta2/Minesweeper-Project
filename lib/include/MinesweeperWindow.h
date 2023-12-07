@@ -9,9 +9,13 @@ class MinesweeperWindow : public wxFrame {
 public:
     MinesweeperWindow(const wxString& title, const wxPoint& pos, const wxSize& size);
 private:
+    wxTimer timer;
+    int timeElapsed;
+    wxStaticText* timerText;
     Board board;
     wxButton* cellButtons[10][10];
     void OnExit(wxCommandEvent& event);
+    void OnTick(wxTimerEvent& event);
     void makeBoard();
     void rerenderGUI();
 };

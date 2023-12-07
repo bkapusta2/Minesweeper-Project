@@ -101,6 +101,14 @@ void Board::clickCell(int x, int y) {
         if (clickedCell.getSymbol() == 'B') {
             // Handle bomb click, end the game
             clickedCell.setRevealed(true);
+            for (int j = 0; j < board.size(); j++){
+                for (int i = 0; i < board.size(); i++) {
+                    if (board[i][j]->getSymbol() == 'B') {
+                        Cell& bombCell = *board[i][j];
+                        bombCell.setRevealed(true);
+                    }
+                }
+            }
             gameEnded = true;
             // LATER IMPLEMENT REVEALING WHOLE BOARD
         }

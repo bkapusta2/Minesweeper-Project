@@ -1,9 +1,15 @@
 #include "../include/MinesweeperWindow.h"
 #include "../include/Cell.h"
 
-MinesweeperWindow::MinesweeperWindow(const wxString &title, const wxPoint &pos, const wxSize &size) : wxFrame(NULL, wxID_ANY, title, pos, size), board() {
+MinesweeperWindow::MinesweeperWindow(const wxString &title, const wxPoint &pos, const wxSize &size)
+        :wxFrame(NULL, wxID_ANY, title, pos, size), board(), timeElapsed(0) {
     board.setCells();
     board.setCellValues();
+    timerText = new wxStaticText(this, wxID_ANY, "Timer: 0s", wxPoint(230, 10));
+    timer.SetOwner(this, wxID_ANY);
+    timer.Start(1000);
+    // Binds the timer object to the OnTick function and this MinesweeperWindow
+    Bind(wxEVT_TIMER, &MinesweeperWindow::OnTick, this);
     makeBoard();
     rerenderGUI();
 }
@@ -12,11 +18,13 @@ void MinesweeperWindow::makeBoard() {
     int boardSize = board.getBoardSize();
     for (int y = 0; y < boardSize; y++) {
         for (int x = 0; x < boardSize; x++) {
-            cellButtons[x][y] = new wxButton(this, wxID_ANY, "", wxPoint(x * 50, y * 50), wxSize(50, 50));
+            cellButtons[x][y] = new wxButton(this, wxID_ANY, "", wxPoint(x * 50, (y * 50) + 30), wxSize(50, 50));
             cellButtons[x][y]->Bind(wxEVT_BUTTON, [this, x, y](wxCommandEvent& event) {
                 // Implement button click event based on the button
                 // Use gameBoard methods to update the board state
                 // Example: gameBoard.clickCell(x, y);
+                // Add checking for if the game is over through the board
+                    // If a bomb is clicked or if all the OpenCells are revealed
                 board.clickCell(x,y);
                 rerenderGUI();
             });
@@ -61,4 +69,12 @@ void MinesweeperWindow::rerenderGUI() {
 void MinesweeperWindow::OnExit(wxCommandEvent& event)
 {
     Close( true );
+}
+
+void MinesweeperWindow::OnTick(wxTimerEvent& event){
+    if (!board.gameEnded) {
+        timeElapsed++;
+        wxString newLabel = wxString::Format("Timer: %ds", timeElapsed);
+        timerText->SetLabel(newLabel);
+    }
 }
