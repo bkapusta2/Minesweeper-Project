@@ -58,7 +58,7 @@ void MinesweeperWindow::rerenderGUI() {
             char symbol = board.board[x][y]->getSymbol();
             int value = board.board[x][y]->getValueInside();
             wxString buttonText = "";
-            wxColour revealedColor(2, 131, 147);
+            wxColour revealedColor(2, 60, 147);
             // If the cell is revealed (by clicking)
             if (board.board[x][y]->isRevealed()) {
                 /* Check if the symbol is B for Bomb
@@ -72,6 +72,26 @@ void MinesweeperWindow::rerenderGUI() {
                 * - If it isn't, reveal the inner cell value and set the color of the button to blue
                 */
                 else {
+                    wxColour textColor(255, 255, 255);
+                    switch (board.board[x][y]->getValueInside()) {
+                        case 1: {
+                            textColor = wxColour(255, 255, 255); // Red color (adjust RGB values as needed)
+                            break;
+                        }
+                        case 2: {
+                            textColor = wxColour(255, 165, 0); // Red color (adjust RGB values as needed)
+                            break;
+                        }
+                        case 3: {
+                            textColor = wxColour(255, 40, 255); // Red color (adjust RGB values as needed)
+                            break;
+                        }
+                        case 4: {
+                            textColor = wxColour(53, 255, 138); // Red color (adjust RGB values as needed)
+                            break;
+                        }
+                    }
+                    cellButtons[x][y]->SetForegroundColour(textColor);
                     buttonText = wxString::Format("%d", value);
                 }
                 // Set the correct cell color
