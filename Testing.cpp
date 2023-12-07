@@ -1,4 +1,4 @@
-/*#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest/doctest.h"
 
 #include "lib/include/MinesweeperWindow.h"
@@ -32,7 +32,7 @@ TEST_CASE("Test for clicking") {
 }
 
 // IMPLEMENT
-TEST_CASE("Test for game end on bomb click") {
+TEST_CASE("Test for game end on bomb click IMPLEMENT") {
     Board board;
     board.setCells();
     board.setCellValues();
@@ -42,7 +42,7 @@ TEST_CASE("Test for game end on bomb click") {
 }
 
 // IMPLEMENT
-TEST_CASE("Test for game end on only bombs left") {
+TEST_CASE("Test for game end on only bombs left IMPLEMENT") {
     Board board;
     board.setCells();
     board.setCellValues();
@@ -50,4 +50,14 @@ TEST_CASE("Test for game end on only bombs left") {
     board.clickCell(3, 4);
     CHECK(board.board[3][4]->isRevealed() == true);
 }
-*/
+
+TEST_CASE("Testing board reset") {
+    Board board;
+    board.setCells();
+    board.setCellValues();
+
+    board.clickCell(6, 6);
+    CHECK(board.board[6][6]->isRevealed() == true);
+    board.resetBoard();
+    CHECK(board.board[6][6]->isRevealed() == false);
+}

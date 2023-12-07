@@ -19,3 +19,10 @@ You want to achieve the lowest possible time for beating the game. You may resta
 ### Notes:
 - Since no bombs are surrounding a cell with a value of 0, clicking on one of those cell will reveal all the 
 surrounding cells. This can often lead to a chain reaction of 0's being revealed by clicking 0's.
+
+
+- When running tests, comment out 'wxIMPLEMENT_APP(MinesweeperApp);' in _main.cpp_ and uncomment all _Testing.cpp_
+- When running the app, include 'wxIMPLEMENT_APP(MinesweeperApp);' in _main.cpp_ and comment out all _Testing.cpp_
+
+
+- If it doesn't work, you should try changing the configuration in CLion

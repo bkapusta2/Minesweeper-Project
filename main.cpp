@@ -11,7 +11,7 @@ public:
 };
 
 // Keep this line to run the app, comment it out when running tests
-wxIMPLEMENT_APP(MinesweeperApp);
+//wxIMPLEMENT_APP(MinesweeperApp);
 
 // When running the application create and show the window
 bool MinesweeperApp::OnInit()
