@@ -118,8 +118,6 @@ void MinesweeperWindow::rerenderGUI() {
         statusText->SetForegroundColour(newColor);
         statusText->SetLabel(newStatusText);
     }
-    // Add checking for if the game is over through the board
-    // If all the OpenCells are revealed
 }
 
 // When exiting the window, close the app
